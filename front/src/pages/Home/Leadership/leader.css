@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.leadership {
+  margin-top: 150px;
+}
+.leader {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 64px;
+}
+.leaderparam {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(147, 147, 175);
+}
+.usercard {
+  display: flex;
+}
+.card1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(233, 236, 239);
+}
+.image {
+  background: url("https://preview.colorlib.com/theme/foundation/images/person_1.jpg");
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.params {
+  color: rgb(233, 236, 239);
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
