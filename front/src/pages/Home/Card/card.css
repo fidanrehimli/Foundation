@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.card{
+    display: flex;
+}
+.orphan{
+    width: 650px;
+    height: 150px;
+    background-color: rgb(78,78,78);
+}
+.orphantext{
+    color: white;
+    font-family: "Anton", sans-serif;
+font-size: 32px;
+}
+.hungry{
+    background-color: rgb(253,95,0);
+    width: 650px;
+    height: 150px;
+}
+.edu{
+    background-color: rgb(162,49,49);
+    width: 620px;
+    height: 150px;
+}
+.edutext{
+   color:white;
+}
