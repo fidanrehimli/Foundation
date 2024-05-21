@@ -2,12 +2,14 @@ import React, { useContext, useEffect } from "react";
 import "./crad.css";
 import axios from "axios";
 import { ProductsContext } from "../../../context/ProductsContext";
+import {useNavigate} from "react-router-dom"
 const Crad = () => {
-  const { filter, setFilterData } = useContext(ProductsContext);
+  const {data,setData, filter, setFilterData } = useContext(ProductsContext);
 
   const GetAllData = async () => {
+    const navigate=useNavigate()
     const res = await axios("http://localhost:5000/users");
-    // setData(res?.data);
+    setData(res?.data);
     setFilterData(res?.data);
     console.log(res?.data);
   };
@@ -23,6 +25,7 @@ const Crad = () => {
               <img className="imgcrad" src={elem.imgSRC} alt="" />
               <h1 className="titlecrad">{elem.title}</h1>
               <p className="paramcrad">{elem.param}</p>
+              <button className="detailbtn">Detail</button>
             </div>
           );
         })}

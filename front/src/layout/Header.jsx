@@ -18,7 +18,7 @@ const Header = () => {
                 <NavLink to={"/discover"} className={(navData)=>navData.isActive?"active":""}>Discover</NavLink>
             </li>
             <li>
-                <NavLink to={"/donate"} className={(navData)=>navData.isActive?"active":""}>Donate</NavLink>
+                <NavLink to={"/detail"} className={(navData)=>navData.isActive?"active":""}>Detail</NavLink>
             </li>
             <li>
                 <NavLink to={"/add"} className={(navData)=>navData.isActive?"active":""}>Add</NavLink>

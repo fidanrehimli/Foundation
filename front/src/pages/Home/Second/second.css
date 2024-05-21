@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+
+.blog{
+    margin-top: 50px;
+}
+.blogtext{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 64px;
+}
+.blogparam{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(147, 147, 175);
+}
+.images{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.images1{
+    background: url("https://preview.colorlib.com/theme/foundation/images/hero_1_no-text.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px; 
+    border-radius: 8px;
+
+    .img1text{
+        color: rgb(253,95,0);
+    }
+}
+.images2{
+    background: url("https://preview.colorlib.com/theme/foundation/images/hero_2_no-text.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+
+}

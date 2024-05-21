@@ -9,7 +9,6 @@ export const ProductsProvider = ({ children }) => {
   const [usernameInp, setUsernameInp] = useState("");
   const [imgInp, setImgInp] = useState("");
   const [titleInp, setTitleInp] = useState("");
-  const [paramInp, setParamInp] = useState("");
 
   return (
     <ProductsContext.Provider
@@ -28,8 +27,8 @@ export const ProductsProvider = ({ children }) => {
         setImgInp,
         titleInp,
         setTitleInp,
-        paramInp,
-        setParamInp,
+
+
       }}
     >
       {children}

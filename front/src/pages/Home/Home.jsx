@@ -4,6 +4,8 @@ import Image from "./Image/Image";
 import Card from "./Card/Card";
 import Crad from "./Crad/Crad";
 import Leader from "./Leadership/Leader";
+import Secondsection from "./Second/Secondsection";
+import Footer from "../../layout/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Card />
       <Crad />
       <Leader />
+      <Secondsection/>
+      <Footer/>
     </div>
   );
 };
